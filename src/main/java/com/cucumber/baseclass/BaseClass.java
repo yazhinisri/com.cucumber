@@ -153,10 +153,11 @@ public class BaseClass {
 	// dropdown
 	public static void dropdown(WebElement element, String type, String i) {
 		try {
-
+          System.out.println("Inside dropdown");
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			Select sc = new Select(element);
 			if (type.equalsIgnoreCase("index")) {
+				System.out.println("iam inside index");
 				sc.selectByIndex(Integer.parseInt(i));
 			}
 		  if (type.equalsIgnoreCase("value")) {

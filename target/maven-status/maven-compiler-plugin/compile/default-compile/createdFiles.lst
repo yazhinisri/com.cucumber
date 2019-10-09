@@ -1,0 +1,7 @@
+com\cucumber\POM\SearchHotel.class
+com\cucumber\baseclass\BaseClass.class
+com\cucumber\utilities\PageObjectManager.class
+com\cucumber\POM\ForgetPassword.class
+com\cucumber\POM\Loginpage.class
+com\cucumber\POM\HotelReservationSystem.class
+com\cucumber\utilities\Configuration.class
