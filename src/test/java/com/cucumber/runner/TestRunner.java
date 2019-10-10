@@ -16,9 +16,9 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin= {"pretty",
-				"html:\\src\\test\\resources\\com\\cucumber\\reports",
-				"json:\\src\\test\\resources\\com\\cucumber\\reports\\cucumber.json",
-				"junit:\\src\\test\\resources\\com\\cucumber\\reports\\cucumber.xml"
+				"html:src\\test\\resources\\com\\cucumber\\reports",
+				"json:src\\test\\resources\\com\\cucumber\\reports\\cucumber.json",
+				"junit:src\\test\\resources\\com\\cucumber\\reports\\cucumber.xml"
 		},
 		features="src\\test\\java\\com\\cucumber\\feature",
                  glue="com\\cucumber\\stepdefinition",

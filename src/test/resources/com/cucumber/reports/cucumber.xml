@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.870662">
+<testcase classname="Adactin Application smoketest automation sripts" name="To verify valid login details" time="12.829962">
+<system-out><![CDATA[Given user should be in adactin application.................................passed
+When user enter 'yazhinisrii' in the email field............................passed
+When user enter the 'yazhini' in the password field in loginpage............passed
+And user click on login button in the login page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin Application smoketest automation sripts" name="To verify whether the check-out date field accepts a later date than checkin date" time="8.0407">
+<system-out><![CDATA[Given user should be in adactin application.................................passed
+When user enter 'yazhinisrii' in the email field............................passed
+When user enter the 'yazhini' in the password field in loginpage............passed
+And user click on login button in the login page............................passed
+When user select location in search hotel page..............................passed
+When user select hotel in search hotel page.................................passed
+When user select room type in search hotel page.............................passed
+When user select number of rooms............................................passed
+When user enter checkin date later than check out date......................passed
+When user enter checkout date...............................................passed
+When user click the search button...........................................passed
+Then Verify that system gives an error saying check-in-date should not be later than check-out-date..passed
+]]></system-out>
+</testcase>
+</testsuite>
